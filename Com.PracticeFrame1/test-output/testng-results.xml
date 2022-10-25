@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16144" started-at="2021-06-09T03:03:06Z" finished-at="2021-06-09T03:03:22Z">
+    <groups>
+    </groups>
+    <test name="Adhoc 60" duration-ms="16144" started-at="2021-06-09T03:03:06Z" finished-at="2021-06-09T03:03:22Z">
+      <class name="Com.PracticeFramework.Com.PracticeFrame1.HoneDepotCreateAccount">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Com.PracticeFramework.Com.PracticeFrame1.HoneDepotCreateAccount@548e7350]" name="beforeClass" is-config="true" duration-ms="4101" started-at="2021-06-09T03:03:06Z" finished-at="2021-06-09T03:03:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.HomeDepot.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Com.PracticeFramework.Com.PracticeFrame1.HoneDepotCreateAccount@548e7350]" name="f" duration-ms="11424" started-at="2021-06-09T03:03:10Z" finished-at="2021-06-09T03:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Com.PracticeFramework.Com.PracticeFrame1.HoneDepotCreateAccount@548e7350]" name="afterClass" is-config="true" duration-ms="271" started-at="2021-06-09T03:03:22Z" finished-at="2021-06-09T03:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Com.PracticeFramework.Com.PracticeFrame1.HoneDepotCreateAccount -->
+    </test> <!-- Adhoc 60 -->
+  </suite> <!-- Suite -->
+</testng-results>

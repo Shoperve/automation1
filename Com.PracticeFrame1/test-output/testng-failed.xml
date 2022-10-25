@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="website" value="https://www.HomeDepot.com"/>
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="Com.PracticeFramework.Com.PracticeFrame1.Ilisteners"/>
+  </listeners>
+  <test thread-count="5" name="Adhoc 60(failed)">
+    <classes>
+      <class name="Com.PracticeFramework.Com.PracticeFrame1.HoneDepotCreateAccount">
+        <methods>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Com.PracticeFramework.Com.PracticeFrame1.HoneDepotCreateAccount -->
+    </classes>
+  </test> <!-- Adhoc 60(failed) -->
+</suite> <!-- Failed suite [Suite] -->
